@@ -1,14 +1,14 @@
-# DESIGN.md: Michelle portfolio design system
+# DESIGN.md: Mitchelle portfolio design system
 
-Version 1.0 · October 2026 · Light theme only. The design system for the portfolio and media kit of Michelle, a Nairobi-based lifestyle, skincare, fashion and beauty content creator. Written for people and coding agents building her pages. Everything you need is in this one file: rules, tokens, components and the full stylesheet.
+Version 1.0 · October 2026 · Light theme only. The design system for the portfolio and media kit of Mitchelle, a Nairobi-based lifestyle, skincare, fashion and beauty content creator. Written for people and coding agents building her pages. Everything you need is in this one file: rules, tokens, components and the full stylesheet.
 
 ---
 
 ## 0. How to use this file
 
-You are building or changing a page for Michelle. Read this file in full first.
+You are building or changing a page for Mitchelle. Read this file in full first.
 
-**Precedence:** explicit instruction from Michelle or Farid > this file > your own taste.
+**Precedence:** explicit instruction from Mitchelle or Farid > this file > your own taste.
 
 **Workflow for every page:**
 
@@ -72,7 +72,7 @@ An Apple product page made for one person. A white canvas, the system font set b
 Paste this block once, at the root of the page.
 
 ```css
-/* Michelle, generated from tokens.json */
+/* Mitchelle, generated from tokens.json */
 :root {
   --bg: #ffffff;
   --bg-secondary: #f9f9f9;
@@ -238,9 +238,9 @@ No Unicode symbols as icons. Write platform names out in words (Instagram, TikTo
 
 ## 10. Voice and copy
 
-Calm, warm, direct. Michelle talking, not a brand performing.
+Calm, warm, direct. Mitchelle talking, not a brand performing.
 
-- First person: "I create", never "Michelle creates". The exception is a three-line bio for a press release.
+- First person: "I create", never "Mitchelle creates". The exception is a three-line bio for a press release.
 - Headlines are sentence case and promise an outcome.
 - Buttons start with a verb and use Title Case. Use the same two labels everywhere: **"Work With Me"** (primary, opens email) and **"See My Work"** (secondary, jumps to the work). Never "Get in Touch" on one page and "Contact" on another.
 - Digits for numbers ("3 Reels"). Name deliverables, platforms and real numbers. Date every stat ("As of October 2026").
@@ -252,7 +252,7 @@ Calm, warm, direct. Michelle talking, not a brand performing.
 | Send me the product and the brief. I'll send back UGC you can run as ads. | Let's create magic together!! |
 | Three Reels and five stories across two weeks, with 90 days of usage rights. | High-quality content package |
 
-**Real details to use:** name Michelle (Mimie to her followers) · email mitchelleatienooduor@gmail.com · Instagram and TikTok @mitchelle.irl · based in Nairobi, Kenya · works virtually (product promotions, reviews, UGC) and in person (brand launches, events, photoshoots, beauty appointments, lifestyle experiences) · past work: a promo video for The Summer Lounge at Sarit Centre and a promo video for the makeup artist @glam_by_tyee. Follower counts change: confirm them before every update.
+**Real details to use:** name Mitchelle (Mimie to her followers) · email mitchelleatienooduor@gmail.com · Instagram and TikTok @mitchelle.irl · based in Nairobi, Kenya · works virtually (product promotions, reviews, UGC) and in person (brand launches, events, photoshoots, beauty appointments, lifestyle experiences) · past work: a promo video for The Summer Lounge at Sarit Centre and a promo video for the makeup artist @glam_by_tyee. Follower counts change: confirm them before every update.
 
 ---
 
@@ -260,7 +260,7 @@ Calm, warm, direct. Michelle talking, not a brand performing.
 
 There's no drawn logo yet.
 
-- **Wordmark:** "Michelle" in the system font, bold, tightly tracked, with a rose full stop (`<span class="mi-wordmark">Michelle<b>.</b></span>`).
+- **Wordmark:** "Mitchelle" in the system font, bold, tightly tracked, with a rose full stop (`<span class="mi-wordmark">Mitchelle<b>.</b></span>`).
 - **Nav lockup:** the monogram plus the name at 18px (`mi-logo`).
 - **Monogram:** an italic serif M in rose on a `rose-soft` circle (`mi-mono`, `mi-mono-lg`).
 - Keep the monogram's width clear on every side. Don't stretch, outline, shadow or re-font it. When her final name and handle are settled, outline the wordmark into SVG.
@@ -273,7 +273,7 @@ All components are plain HTML and CSS using the `mi-` classes from §13.
 
 ### Logo
 
-The "Michelle." wordmark with a rose full stop, and the italic serif M monogram on a soft rose circle.
+The "Mitchelle." wordmark with a rose full stop, and the italic serif M monogram on a soft rose circle.
 
 - Provide: her display name. The full stop is a `<b>` so it takes the rose colour.
 - Nav: monogram plus the name at 18px (`mi-logo`). Cover and contact pages: the large wordmark. Profile picture or favicon: the large monogram alone.
@@ -283,9 +283,9 @@ The "Michelle." wordmark with a rose full stop, and the italic serif M monogram 
 
 ```html
 <div class="mi-stage" style="gap:48px;align-items:center">
-  <span class="mi-wordmark">Michelle<b>.</b></span>
-  <a class="mi-logo" href="#"><span class="mi-mono" aria-hidden="true">M</span>Michelle</a>
-  <span class="mi-mono mi-mono-lg" aria-label="Michelle monogram">M</span>
+  <span class="mi-wordmark">Mitchelle<b>.</b></span>
+  <a class="mi-logo" href="#"><span class="mi-mono" aria-hidden="true">M</span>Mitchelle</a>
+  <span class="mi-mono mi-mono-lg" aria-label="Mitchelle monogram">M</span>
 </div>
 ```
 
@@ -302,7 +302,7 @@ The 64px top bar for the static site: logo on the leading edge, four section lin
 ```html
 <div style="padding:16px 0">
   <nav class="mi-nav" aria-label="Main">
-    <a class="mi-logo" href="#"><span class="mi-mono" aria-hidden="true">M</span>Michelle</a>
+    <a class="mi-logo" href="#"><span class="mi-mono" aria-hidden="true">M</span>Mitchelle</a>
     <ul class="mi-nav-links">
       <li><a href="#" aria-current="page">Work</a></li>
       <li><a href="#">Services</a></li>
@@ -386,7 +386,7 @@ Her round portrait with a thin rose ring and a white gap, like a story ring on I
 
 - Provide: a square portrait as an `<img>` inside `mi-avatar-in`, with alt text. Face centred.
 - Sizes: 40, 64, 96 (default) and 160px. The hero uses 96 or 160.
-- The ring is for Michelle only. Other people (a makeup artist she worked with) use `mi-avatar-plain`.
+- The ring is for Mitchelle only. Other people (a makeup artist she worked with) use `mi-avatar-plain`.
 - With no photo yet, the circle shows `tag-pink-bg` and her initial.
 
 ```html

@@ -1,4 +1,4 @@
-/* Michelle portfolio: behaviour.
+/* Mitchelle portfolio: behaviour.
    Each init function owns one part of the page and is safe to skip if its markup is missing. */
 (() => {
   'use strict';
@@ -410,7 +410,7 @@
       const when = $('.chip[aria-pressed="true"]', groups[1])?.dataset.value;
       const subject = needs.length ? `Working together: ${needs.join(', ')}` : 'Working together';
       const body = [
-        'Hi Michelle,',
+        'Hi Mitchelle,',
         '',
         "I'm [your name] from [brand].",
         needs.length ? `What we need: ${needs.join(', ')}.` : '',
@@ -514,7 +514,7 @@
     $$('.print-btn').forEach((b) => b.addEventListener('click', async () => {
       await loadAllImages();
       const title = document.title;
-      document.title = 'Michelle media kit';
+      document.title = 'Mitchelle media kit';
       window.print();
       document.title = title;
     }));

@@ -1,7 +1,7 @@
-# Portfolio Web Page Specification & Build Prompt: Michelle
+# Portfolio Web Page Specification & Build Prompt: Mitchelle
 
 > **Role & Task Directive**:  
-> You are an elite creative technologist and front-end design engineer specializing in high-converting, editorial influencer portfolios and digital media kits. Your task is to build a modern, feminine, stylish, and high-performance portfolio webpage for **Michelle**, a Nairobi-based professional lifestyle, skincare, fashion, and beauty content creator and influencer.
+> You are an elite creative technologist and front-end design engineer specializing in high-converting, editorial influencer portfolios and digital media kits. Your task is to build a modern, feminine, stylish, and high-performance portfolio webpage for **Mitchelle**, a Nairobi-based professional lifestyle, skincare, fashion, and beauty content creator and influencer.
 > 
 > The portfolio must bridge the gap between high-fashion editorial aesthetics (reminiscent of an Apple product showcase infused with a boutique fashion lookbook) and commercial viability for brand managers seeking paid partnerships, UGC campaigns, event appearances, and long-term ambassadorships.
 
@@ -9,7 +9,7 @@
 
 ## 1. Creator Profile & Brand Identity
 
-- **Name**: Michelle
+- **Name**: Mitchelle
 - **Email**: `michelleatienooduor@gmail.com`
 - **Location**: Nairobi, Kenya (open to local physical bookings and global virtual collaborations / travel)
 - **Primary Niches**: Fashion, Skincare, Beauty, Lifestyle Experiences, Travel, Product Promotions & UGC.
@@ -31,7 +31,7 @@
 
 ## 3. Curated Photo Assets & Mapping
 
-The site has access to Michelle’s photography in `Assets/`. Incorporate these real assets with contextual purpose:
+The site has access to Mitchelle’s photography in `Assets/`. Incorporate these real assets with contextual purpose:
 
 | Asset Filename | Visual Description & Mood | Recommended Site Placement |
 | :--- | :--- | :--- |
@@ -39,7 +39,7 @@ The site has access to Michelle’s photography in `Assets/`. Incorporate these 
 | `WhatsApp Image 2026-10-11 at 15.30.36.jpeg` | **Travel & Editorial Fashion**: Editorial medium-full shot on a yacht/boat railing over turquoise water, vibrant magenta crop top, flowing blush pink maxi skirt caught in the wind. | Travel Niche Feature / Lookbook Gallery lead. |
 | `WhatsApp Image 2026-10-11 at 15.30.34 (1).jpeg` | **Lifestyle & Summer Sunshine**: Sun-drenched portrait in a bright yellow eyelet/crochet tiered sundress, hand touching natural curls, rustic stone wall and lush foliage. | Lifestyle & Resort Experience Showcase. |
 | `WhatsApp Image 2026-10-11 at 15.30.35.jpeg` | **Skincare & Natural Glow**: Warm sunlit golden-hour shot with eyes gently closed, beaming smile in yellow sundress; showcases glowing, radiant, bare-skin texture. | Skincare / Natural Beauty niche card or ambient hover swap. |
-| `WhatsApp Image 2026-10-11 at 15.30.35 (1).jpeg` | **Nightlife, Dining & Venue Partnerships**: Michelle at luxury restaurant reception ("EZ RESTAURANT / VIP ROOM 2") with illuminated stone desk, golden ceiling fixture, wearing a cowl-neck red mini dress and white heels. | Brand Launch & In-Person Hospitality Case Study tile. |
+| `WhatsApp Image 2026-10-11 at 15.30.35 (1).jpeg` | **Nightlife, Dining & Venue Partnerships**: Mitchelle at luxury restaurant reception ("EZ RESTAURANT / VIP ROOM 2") with illuminated stone desk, golden ceiling fixture, wearing a cowl-neck red mini dress and white heels. | Brand Launch & In-Person Hospitality Case Study tile. |
 | `WhatsApp Image 2026-10-11 at 15.30.35 (2).jpeg` | **Evening Glam & Beauty**: Close vertical shot beside the illuminated "VIP ROOM 2" brass sign, red cowl mini dress, sculpted makeup, delicate gold jewellery. | Beauty & Evening Glam Niche or Service Header. |
 | `WhatsApp Image 2026-10-11 at 15.30.33.jpeg` | **High Fashion & Luxury Styling**: Full-length pose blowing a kiss in a sleek marble hall; off-shoulder white draped top with bow, snakeskin mini skirt, black luxury woven handbag, red heels. | Fashion Portfolio Bento Grid lead tile. |
 | `WhatsApp Image 2026-10-11 at 15.30.34.jpeg` | **Editorial Outfit Showcase**: Confident straight-to-camera pose in marble corridor holding the luxury woven bag; highlights full styling details and posture. | Outfit of the Day (OOTD) / Commercial Brand Modeling tile. |
@@ -48,7 +48,7 @@ The site has access to Michelle’s photography in `Assets/`. Incorporate these 
 
 ## 4. Past Work & Live Video Case Studies
 
-Incorporate Michelle's live commercial collaborations:
+Incorporate Mitchelle's live commercial collaborations:
 1. **The Summer Lounge (Sarit Centre, Nairobi)**
    - *URL*: [Instagram Reel](https://www.instagram.com/reel/DXE9CTcjCj8/?stkn=MXZ4dGcweWx3d2xsdQ==) (`thesummer.ke`)
    - *Scope*: Venue launch campaign, on-site event coverage, lifestyle & dining experience Reel, atmospheric storytelling.
@@ -83,14 +83,14 @@ Elevate the page with high-end, responsive micro-interactions:
 7. **Niche Hover Mood Shifts**:
    - Hovering over the niche tags (Fashion, Skincare, Beauty, Lifestyle, Travel) in the hero or navigation softly modulates background subtle highlights or swaps the hero preview mood (e.g., Lavender glow for Skincare, Sky Blue tint for Travel).
 8. **Tactile Monogram / 3D Tilt**:
-   - An interactive 3D / parallax depth element: Michelle’s signature monogram "M" in rose glass that subtly refracts light, or 2.5D gyroscopic/cursor tilt on Michelle’s avatar card.
+   - An interactive 3D / parallax depth element: Mitchelle’s signature monogram "M" in rose glass that subtly refracts light, or 2.5D gyroscopic/cursor tilt on Mitchelle’s avatar card.
 
 ---
 
 ## 6. Page Structure & Section Breakdown
 
 - **Navigation**:
-  - Sticky glass bar (`backdrop-filter: blur(12px)`): Monogram logo `M Michelle.`, anchor links (`Work`, `Services`, `About`, `Contact`), and primary CTA button `Work With Me`.
+  - Sticky glass bar (`backdrop-filter: blur(12px)`): Monogram logo `M Mitchelle.`, anchor links (`Work`, `Services`, `About`, `Contact`), and primary CTA button `Work With Me`.
 - **Hero Section**:
   - Stacked, centered design: Story-ring avatar (`WhatsApp Image 2026-10-11 at 15.30.36 (1).jpeg`), headline with the shape-shifting italic word, concise outcome subhead, dual CTAs (`Work With Me` and `See My Work`), followed by interactive pastel niche pills.
 - **Brand Metrics & Media Kit Strip**:
@@ -102,7 +102,7 @@ Elevate the page with high-end, responsive micro-interactions:
     1. *UGC & Product Reviews* (Virtual: Short-form Reels/TikToks, aesthetic photography, product whitelisting).
     2. *Event Appearances & Brand Launches* (In-Person: Sarit Centre/Nairobi events, live IG stories, recap Reels).
     3. *Editorial Campaigns & Photoshoots* (In-Person: Brand lookbooks, commercial modeling, campaign imagery).
-- **About Michelle**:
+- **About Mitchelle**:
   - Brief, warm personal philosophy, authentic lifestyle approach, and why brands choose to work with her.
 - **Contact & Partnership Footer**:
   - High-impact closing block: `Let's make something <span class="mi-it">together</span>`.
